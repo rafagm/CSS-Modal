@@ -28,6 +28,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 .button a {
@@ -148,6 +150,8 @@ body {
   text-decoration: none;
   color: var(--accent-color); 
   transition: filter .1s ease-out, letter-spacing .2s ease-out;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 .modal__content__link:hover { 
@@ -180,4 +184,6 @@ body {
   margin-left: .4em;
   transition: all .4s;
   cursor: pointer;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
