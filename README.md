@@ -1,7 +1,7 @@
 # CSS-Modal
 Modal made only with CSS
 
-### Tech
+### Live Example
 
-Live example: https://rafagm.github.io/CSS-Modal/
+https://rafagm.github.io/CSS-Modal/
 
